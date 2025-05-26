@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import { ThemeSwitch } from "~/components/theme-switch";
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "~/components/ui/card";
@@ -15,7 +16,14 @@ export default function Index() {
   return (
     <div className="flex h-screen items-center justify-center">
       <div className="flex flex-col items-center gap-16">
-        <h1>Shadcn Test Page</h1>
+        <h1 className="text-3xl font-bold">Shadcn Test Page</h1>
+        {/* Theme Switch Sektion */}
+        <section>
+            <h2 className="mb-3 text-2xl font-semibold">Theme Switch</h2>
+            <div className="flex flex-wrap items-center gap-4">
+              <ThemeSwitch />
+            </div>
+          </section>
         {/* TooltipProvider wird für alle Tooltips auf der Seite benötigt */}
         <TooltipProvider>
           {/* Badge Sektion */}
