@@ -4,6 +4,7 @@
     "": {
       "name": "shadcn-tailwind-test",
       "dependencies": {
+        "@pr0gstar/trycatch-wrapper": "^1.0.2",
         "@radix-ui/react-slot": "^1.2.3",
         "@radix-ui/react-tooltip": "^1.2.7",
         "@remix-run/node": "^2.16.7",
@@ -230,6 +231,8 @@
     "@npmcli/promise-spawn": ["@npmcli/promise-spawn@6.0.2", "", { "dependencies": { "which": "^3.0.0" } }, "sha512-gGq0NJkIGSwdbUt4yhdF8ZrmkGKVz9vAdVzpOfnom+V8PLSmSOVhZwbNvZZS1EYcJN5hzzKBxmmVVAInM6HQLg=="],
 
     "@pkgjs/parseargs": ["@pkgjs/parseargs@0.11.0", "", {}, "sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg=="],
+
+    "@pr0gstar/trycatch-wrapper": ["@pr0gstar/trycatch-wrapper@1.0.2", "https://npm.pkg.github.com/download/@pr0gstar/trycatch-wrapper/1.0.2/98cd595177ace5006452e8ae79ee62cab14acbe9", { "peerDependencies": { "typescript": "^5" } }, "sha512-IGKFeQesg73Yio775wXaDa7ieMXYJqkueh+lLnoHRZVxckn9luO67v+dqPeItpI7SPVV/BsfGPz2/U/YjUgtNA=="],
 
     "@radix-ui/primitive": ["@radix-ui/primitive@1.1.2", "", {}, "sha512-XnbHrrprsNqZKQhStrSwgRUQzoCI1glLzdw79xiZPoofhGICeZRSQ3dIxAKH1gb3OHfNf4d6f+vAv3kil2eggA=="],
 
